@@ -1,0 +1,27 @@
+/*	**************************
+	Site colors
+	#012345 - Navy blue
+	#456789 - light blue 
+	#abcabc - Sea green
+	************************** */
+
+body {
+  color: #012345;
+  font-family: 'Merriweather', serif;
+}
+
+a {
+	font-weight:bold;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color:#456879;
+	font-weight:bold;
+	font-family: 'Lato', sans-serif;
+}
+
+/*	**************************
+	Footer styles
+	************************** */
+.li-footer-inline-block {display:inline-block; text-align:center;}
+.li-footer-inline-block a {font-weight:normal !important;}
