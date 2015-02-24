@@ -41,45 +41,78 @@
     }
   </script>
 <!-- END Menu resize script -->
+
+<!-- only for github buttons delete -->
 <style type="text/css">
 #downloads {
-margin-bottom: 40px;
+  margin-bottom: 40px;
 }
+
+a.button {
+  display: block;
+  float: left;
+  width: 179px;
+  padding: 12px 8px 12px 8px;
+  margin-right: 14px;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 25px;
+  color: #303030;
+  background: #fdfdfd; /* Old browsers */
+  background: -moz-linear-gradient(top,  #fdfdfd 0%, #f2f2f2 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fdfdfd), color-stop(100%,#f2f2f2)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #fdfdfd 0%,#f2f2f2 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #fdfdfd 0%,#f2f2f2 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #fdfdfd 0%,#f2f2f2 100%); /* IE10+ */
+  background: linear-gradient(top,  #fdfdfd 0%,#f2f2f2 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfdfd', endColorstr='#f2f2f2',GradientType=0 ); /* IE6-9 */
+  border-top: solid 1px #cbcbcb;
+  border-right: solid 1px #b7b7b7;
+  border-bottom: solid 1px #b3b3b3;
+  border-left: solid 1px #b7b7b7;
+  border-radius: 30px;
+  -webkit-box-shadow: 10px 10px 5px #888;
+  -moz-box-shadow: 10px 10px 5px #888;
+  box-shadow: 0px 1px 5px #e8e8e8;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+}
+a.button:hover {
+  background: #fafafa; /* Old browsers */
+  background: -moz-linear-gradient(top,  #fdfdfd 0%, #f6f6f6 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fdfdfd), color-stop(100%,#f6f6f6)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #fdfdfd 0%,#f6f6f6 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #fdfdfd 0%,#f6f6f6 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #fdfdfd 0%,#f6f6f6 100%); /* IE10+ */
+  background: linear-gradient(top,  #fdfdfd 0%,#f6f6f6, 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdfdfd', endColorstr='#f6f6f6',GradientType=0 ); /* IE6-9 */
+  border-top: solid 1px #b7b7b7;
+  border-right: solid 1px #b3b3b3;
+  border-bottom: solid 1px #b3b3b3;
+  border-left: solid 1px #b3b3b3;
+}
+
+a.button span {
+  display: block;
+  height: 23px;
+  padding-left: 50px;
+}
+
 #download-zip span {
-background: url(images/zip-icon.png) 12px 50% no-repeat transparent;
+  background: transparent url(images/zip-icon.png) 12px 50% no-repeat;
 }
 #download-tar-gz span {
-background: url(images/tar-gz-icon.png) 12px 50% no-repeat transparent;
+  background: transparent url(images/tar-gz-icon.png) 12px 50% no-repeat;
 }
 #view-on-github span {
-background: url(images/octocat-icon.png) 12px 50% no-repeat transparent;
+  background: transparent url(images/octocat-icon.png) 12px 50% no-repeat;
 }
-a.button {
-display: block;
-float: left;
-width: 179px;
-padding: 12px 8px;
-margin-right: 14px;
-font-size: 15px;
-font-weight: bold;
-line-height: 25px;
-color: rgb(48, 48, 48);
-background: -webkit-linear-gradient(top, rgb(253, 253, 253) 0%, rgb(242, 242, 242) 100%);
-border-top: 1px solid rgb(203, 203, 203);
-border-right: 1px solid rgb(183, 183, 183);
-border-bottom: 1px solid rgb(179, 179, 179);
-border-left: 1px solid rgb(183, 183, 183);
--webkit-box-shadow: rgb(136, 136, 136) 10px 10px 5px;
-box-shadow: rgb(232, 232, 232) 0px 1px 5px;
-border-top-left-radius: 30px;
-border-top-right-radius: 30px;
-border-bottom-right-radius: 30px;
-border-bottom-left-radius: 30px;
-a {
-text-decoration: none;
-}
+#view-on-github {
+  margin-right: 0;
 }
 </style>
+<!-- END only for github buttons delete -->
+
   </head>
 
   <body>
