@@ -1,0 +1,61 @@
+/*	**************************
+	Bootstrap style Overrides 
+	************************** */
+.navbar-inverse {
+  background: none;
+  border-bottom: none;
+}
+/*	**************************
+	Hamburger menu 
+	************************** */
+.navbar-inverse .navbar-toggle {
+  border: 1px solid #252525;
+  background-color:#252525;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+  border-color: transparent;
+}
+@media (max-width: 767px) {
+  .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    background: #cccccc;
+  }
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: black;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+  color: #498BA0;
+}
+
+/*	**************************
+	Small logo 
+	************************** */
+.sm-logo-container {
+  padding-top: 50px;
+  height: 50px;
+  overflow: hidden;
+}
+
+.sm-logo {
+  color: black;
+  font-size: 2.5em;
+  padding-bottom: 2px;
+}
+
+/*	**************************
+	Big logo 
+	************************** */
+.bg-logo-margin {
+	margin-top:-50px;
+}
+.bg-logo-row {
+  background: #ABCABC;
+}
+.bg-logo-row .bg-logo-container {
+  padding-top: 50px;
+  background:#ABCABC;
+}
+
